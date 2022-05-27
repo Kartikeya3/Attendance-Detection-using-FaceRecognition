@@ -4,7 +4,7 @@ This project is a part of my participation in Microsoft Engage Mentorship Progra
 
 # Project Link : https://enagaefacerecognition.azurewebsites.net/
 
-# Presentation Link : https://docs.google.com/presentation/d/1x3oLsk_VpF7c9t0T0eZ3TArgu5vGB-m3/edit?usp=sharing&ouid=100393603898919293311&rtpof=true&sd=true
+# Presentation Link : shorturl.at/gjAG1
 
 # Video Demo : 
 
@@ -79,6 +79,6 @@ $ deactivate
 5) They can Download the attendance Sheet
 
 # Point to note :
-To run in local First they have to go into Azure Database for PostgreSQL flexible servers and then Select recognition under settings click Networking tab in the firewall add your Firewall rule name and IP Address of start and end. 
-
-# Screenshots :
+1)To run in local First they have to go into Azure Database for PostgreSQL flexible servers and then Select recognition under settings click Networking tab in the firewall add your Firewall rule name and IP Address of start and end. 
+2)Allow permissions for camera
+3)In case any user is not broadcasted it is probably due to server overload, REFRESH the window to solve this.
