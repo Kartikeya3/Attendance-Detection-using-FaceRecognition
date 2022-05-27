@@ -76,6 +76,7 @@ def newface(request):
         Userface.url=blob_client.url
         Userface.save()
         request.session['faceconfirm']=True
+        request.session['loggedinalert']=True
         return redirect("profiles")
     return render(request,"newface.html")
 
