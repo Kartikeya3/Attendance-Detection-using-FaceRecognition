@@ -4,7 +4,7 @@ This project is a part of my participation in Microsoft Engage Mentorship Progra
 
 # Project Link : https://enagaefacerecognition.azurewebsites.net/
 
-# Presentation Link : shorturl.at/gjAG1
+# Presentation Link : https://shorturl.at/gjAG1
 
 # Video Demo : 
 
