@@ -25,7 +25,7 @@ Environment Setup 🚀
 
 $ git clone https://github.com/Kartikeya3/Attendance-Detection-using-FaceRecognition.git
 
-$ cd Attendence/psychoweb
+Open Visual Studio 
 
 $ pip install virtualenv
 
@@ -35,7 +35,9 @@ $ virtualenv venv
 
 Activate the environment everytime you open the project
 
-$ source venv/Scripts/activate
+$ source venv/Scripts/activate (or) pipenv shell
+
+$ pip install django 
 
 install requirements 🛠
 
