@@ -1,0 +1,699 @@
+<!Doctype html>
+
+<head>
+    {% load static %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.css' %}">
+
+    <style>
+    body {
+	 background: #ecf3f3;
+}
+ .particle {
+	 position: absolute;
+	 border-radius: 50%;
+}
+ @keyframes particle-animation-1 {
+	 100% {
+		 transform: translate3d(43vw, 34vh, 80px);
+	}
+}
+ .particle:nth-child(1) {
+	 animation: particle-animation-1 60s infinite;
+	 opacity: 0.75;
+	 height: 6px;
+	 width: 6px;
+	 animation-delay: -0.2s;
+	 transform: translate3d(88vw, 73vh, 95px);
+	 background: #26d935;
+}
+ @keyframes particle-animation-2 {
+	 100% {
+		 transform: translate3d(38vw, 85vh, 77px);
+	}
+}
+ .particle:nth-child(2) {
+	 animation: particle-animation-2 60s infinite;
+	 opacity: 0.05;
+	 height: 9px;
+	 width: 9px;
+	 animation-delay: -0.4s;
+	 transform: translate3d(71vw, 74vh, 96px);
+	 background: #26d9a0;
+}
+ @keyframes particle-animation-3 {
+	 100% {
+		 transform: translate3d(75vw, 89vh, 37px);
+	}
+}
+ .particle:nth-child(3) {
+	 animation: particle-animation-3 60s infinite;
+	 opacity: 0.41;
+	 height: 6px;
+	 width: 6px;
+	 animation-delay: -0.6s;
+	 transform: translate3d(54vw, 86vh, 79px);
+	 background: #26d95c;
+}
+ @keyframes particle-animation-4 {
+	 100% {
+		 transform: translate3d(31vw, 39vh, 56px);
+	}
+}
+ .particle:nth-child(4) {
+	 animation: particle-animation-4 60s infinite;
+	 opacity: 0.89;
+	 height: 7px;
+	 width: 7px;
+	 animation-delay: -0.8s;
+	 transform: translate3d(5vw, 27vh, 77px);
+	 background: #b8d926;
+}
+ @keyframes particle-animation-5 {
+	 100% {
+		 transform: translate3d(75vw, 6vh, 45px);
+	}
+}
+ .particle:nth-child(5) {
+	 animation: particle-animation-5 60s infinite;
+	 opacity: 0.43;
+	 height: 8px;
+	 width: 8px;
+	 animation-delay: -1s;
+	 transform: translate3d(40vw, 80vh, 75px);
+	 background: #d93526;
+}
+ @keyframes particle-animation-6 {
+	 100% {
+		 transform: translate3d(28vw, 42vh, 72px);
+	}
+}
+ .particle:nth-child(6) {
+	 animation: particle-animation-6 60s infinite;
+	 opacity: 0.55;
+	 height: 6px;
+	 width: 6px;
+	 animation-delay: -1.2s;
+	 transform: translate3d(65vw, 77vh, 91px);
+	 background: #265cd9;
+}
+ @keyframes particle-animation-7 {
+	 100% {
+		 transform: translate3d(76vw, 27vh, 99px);
+	}
+}
+ .particle:nth-child(7) {
+	 animation: particle-animation-7 60s infinite;
+	 opacity: 0.67;
+	 height: 10px;
+	 width: 10px;
+	 animation-delay: -1.4s;
+	 transform: translate3d(46vw, 80vh, 26px);
+	 background: #2680d9;
+}
+ @keyframes particle-animation-8 {
+	 100% {
+		 transform: translate3d(84vw, 65vh, 16px);
+	}
+}
+ .particle:nth-child(8) {
+	 animation: particle-animation-8 60s infinite;
+	 opacity: 0.87;
+	 height: 9px;
+	 width: 9px;
+	 animation-delay: -1.6s;
+	 transform: translate3d(37vw, 19vh, 59px);
+	 background: #6b26d9;
+}
+ @keyframes particle-animation-9 {
+	 100% {
+		 transform: translate3d(10vw, 66vh, 94px);
+	}
+}
+ .particle:nth-child(9) {
+	 animation: particle-animation-9 60s infinite;
+	 opacity: 0.65;
+	 height: 9px;
+	 width: 9px;
+	 animation-delay: -1.8s;
+	 transform: translate3d(10vw, 76vh, 15px);
+	 background: #d9b826;
+}
+ @keyframes particle-animation-10 {
+	 100% {
+		 transform: translate3d(37vw, 84vh, 100px);
+	}
+}
+ .particle:nth-child(10) {
+	 animation: particle-animation-10 60s infinite;
+	 opacity: 0.85;
+	 height: 6px;
+	 width: 6px;
+	 animation-delay: -2s;
+	 transform: translate3d(70vw, 38vh, 70px);
+	 background: #2682d9;
+}
+ @keyframes particle-animation-11 {
+	 100% {
+		 transform: translate3d(49vw, 20vh, 64px);
+	}
+}
+ .particle:nth-child(11) {
+	 animation: particle-animation-11 60s infinite;
+	 opacity: 0.3;
+	 height: 7px;
+	 width: 7px;
+	 animation-delay: -2.2s;
+	 transform: translate3d(75vw, 70vh, 9px);
+	 background: #26d9d3;
+}
+ @keyframes particle-animation-12 {
+	 100% {
+		 transform: translate3d(76vw, 84vh, 43px);
+	}
+}
+ .particle:nth-child(12) {
+	 animation: particle-animation-12 60s infinite;
+	 opacity: 0.8;
+	 height: 9px;
+	 width: 9px;
+	 animation-delay: -2.4s;
+	 transform: translate3d(50vw, 25vh, 55px);
+	 background: #d95326;
+}
+ @keyframes particle-animation-13 {
+	 100% {
+		 transform: translate3d(36vw, 75vh, 91px);
+	}
+}
+ .particle:nth-child(13) {
+	 animation: particle-animation-13 60s infinite;
+	 opacity: 0.5;
+	 height: 8px;
+	 width: 8px;
+	 animation-delay: -2.6s;
+	 transform: translate3d(78vw, 35vh, 18px);
+	 background: #2626d9;
+}
+ @keyframes particle-animation-14 {
+	 100% {
+		 transform: translate3d(37vw, 6vh, 8px);
+	}
+}
+ .particle:nth-child(14) {
+	 animation: particle-animation-14 60s infinite;
+	 opacity: 0.75;
+	 height: 10px;
+	 width: 10px;
+	 animation-delay: -2.8s;
+	 transform: translate3d(86vw, 45vh, 85px);
+	 background: #ca26d9;
+}
+ @keyframes particle-animation-15 {
+	 100% {
+		 transform: translate3d(48vw, 90vh, 42px);
+	}
+}
+ .particle:nth-child(15) {
+	 animation: particle-animation-15 60s infinite;
+	 opacity: 0.54;
+	 height: 8px;
+	 width: 8px;
+	 animation-delay: -3s;
+	 transform: translate3d(36vw, 63vh, 76px);
+	 background: #26bed9;
+}
+ @keyframes particle-animation-16 {
+	 100% {
+		 transform: translate3d(76vw, 90vh, 23px);
+	}
+}
+ .particle:nth-child(16) {
+	 animation: particle-animation-16 60s infinite;
+	 opacity: 0.06;
+	 height: 6px;
+	 width: 6px;
+	 animation-delay: -3.2s;
+	 transform: translate3d(52vw, 45vh, 51px);
+	 background: #c126d9;
+}
+ @keyframes particle-animation-17 {
+	 100% {
+		 transform: translate3d(20vw, 1vh, 38px);
+	}
+}
+ .particle:nth-child(17) {
+	 animation: particle-animation-17 60s infinite;
+	 opacity: 0.57;
+	 height: 10px;
+	 width: 10px;
+	 animation-delay: -3.4s;
+	 transform: translate3d(45vw, 23vh, 64px);
+	 background: #26d9c7;
+}
+ @keyframes particle-animation-18 {
+	 100% {
+		 transform: translate3d(49vw, 16vh, 64px);
+	}
+}
+ .particle:nth-child(18) {
+	 animation: particle-animation-18 60s infinite;
+	 opacity: 0.76;
+	 height: 8px;
+	 width: 8px;
+	 animation-delay: -3.6s;
+	 transform: translate3d(85vw, 17vh, 40px);
+	 background: #d926bb;
+}
+ @keyframes particle-animation-19 {
+	 100% {
+		 transform: translate3d(10vw, 59vh, 29px);
+	}
+}
+ .particle:nth-child(19) {
+	 animation: particle-animation-19 60s infinite;
+	 opacity: 0.6;
+	 height: 7px;
+	 width: 7px;
+	 animation-delay: -3.8s;
+	 transform: translate3d(75vw, 43vh, 50px);
+	 background: #265fd9;
+}
+ @keyframes particle-animation-20 {
+	 100% {
+		 transform: translate3d(22vw, 89vh, 8px);
+	}
+}
+ .particle:nth-child(20) {
+	 animation: particle-animation-20 60s infinite;
+	 opacity: 0.95;
+	 height: 6px;
+	 width: 6px;
+	 animation-delay: -4s;
+	 transform: translate3d(20vw, 74vh, 95px);
+	 background: #6ed926;
+}
+ @keyframes particle-animation-21 {
+	 100% {
+		 transform: translate3d(54vw, 13vh, 94px);
+	}
+}
+ .particle:nth-child(21) {
+	 animation: particle-animation-21 60s infinite;
+	 opacity: 0.39;
+	 height: 10px;
+	 width: 10px;
+	 animation-delay: -4.2s;
+	 transform: translate3d(46vw, 20vh, 27px);
+	 background: #5926d9;
+}
+ @keyframes particle-animation-22 {
+	 100% {
+		 transform: translate3d(22vw, 88vh, 55px);
+	}
+}
+ .particle:nth-child(22) {
+	 animation: particle-animation-22 60s infinite;
+	 opacity: 0.55;
+	 height: 7px;
+	 width: 7px;
+	 animation-delay: -4.4s;
+	 transform: translate3d(79vw, 28vh, 34px);
+	 background: #26d944;
+}
+ @keyframes particle-animation-23 {
+	 100% {
+		 transform: translate3d(39vw, 78vh, 34px);
+	}
+}
+ .particle:nth-child(23) {
+	 animation: particle-animation-23 60s infinite;
+	 opacity: 0.8;
+	 height: 8px;
+	 width: 8px;
+	 animation-delay: -4.6s;
+	 transform: translate3d(73vw, 45vh, 71px);
+	 background: #d926b2;
+}
+ @keyframes particle-animation-24 {
+	 100% {
+		 transform: translate3d(56vw, 82vh, 20px);
+	}
+}
+ .particle:nth-child(24) {
+	 animation: particle-animation-24 60s infinite;
+	 opacity: 0.36;
+	 height: 10px;
+	 width: 10px;
+	 animation-delay: -4.8s;
+	 transform: translate3d(18vw, 84vh, 12px);
+	 background: #d9264a;
+}
+ @keyframes particle-animation-25 {
+	 100% {
+		 transform: translate3d(17vw, 60vh, 51px);
+	}
+}
+ .particle:nth-child(25) {
+	 animation: particle-animation-25 60s infinite;
+	 opacity: 0.34;
+	 height: 8px;
+	 width: 8px;
+	 animation-delay: -5s;
+	 transform: translate3d(17vw, 82vh, 57px);
+	 background: #26d9a0;
+}
+ @keyframes particle-animation-26 {
+	 100% {
+		 transform: translate3d(73vw, 12vh, 16px);
+	}
+}
+ .particle:nth-child(26) {
+	 animation: particle-animation-26 60s infinite;
+	 opacity: 0.34;
+	 height: 7px;
+	 width: 7px;
+	 animation-delay: -5.2s;
+	 transform: translate3d(46vw, 5vh, 90px);
+	 background: #a3d926;
+}
+ @keyframes particle-animation-27 {
+	 100% {
+		 transform: translate3d(6vw, 40vh, 45px);
+	}
+}
+ .particle:nth-child(27) {
+	 animation: particle-animation-27 60s infinite;
+	 opacity: 0.48;
+	 height: 8px;
+	 width: 8px;
+	 animation-delay: -5.4s;
+	 transform: translate3d(9vw, 44vh, 38px);
+	 background: #8226d9;
+}
+ @keyframes particle-animation-28 {
+	 100% {
+		 transform: translate3d(75vw, 88vh, 57px);
+	}
+}
+ .particle:nth-child(28) {
+	 animation: particle-animation-28 60s infinite;
+	 opacity: 0.05;
+	 height: 8px;
+	 width: 8px;
+	 animation-delay: -5.6s;
+	 transform: translate3d(5vw, 4vh, 26px);
+	 background: #26b8d9;
+}
+ @keyframes particle-animation-29 {
+	 100% {
+		 transform: translate3d(75vw, 50vh, 44px);
+	}
+}
+ .particle:nth-child(29) {
+	 animation: particle-animation-29 60s infinite;
+	 opacity: 0.21;
+	 height: 10px;
+	 width: 10px;
+	 animation-delay: -5.8s;
+	 transform: translate3d(62vw, 40vh, 82px);
+	 background: #2674d9;
+}
+ @keyframes particle-animation-30 {
+	 100% {
+		 transform: translate3d(72vw, 83vh, 78px);
+	}
+}
+ .particle:nth-child(30) {
+	 animation: particle-animation-30 60s infinite;
+	 opacity: 0.83;
+	 height: 7px;
+	 width: 7px;
+	 animation-delay: -6s;
+	 transform: translate3d(17vw, 78vh, 9px);
+	 background: #7426d9;
+}
+
+    /* CSS comes here */
+    #video {
+        border: 1px solid black;
+        width: 500px;
+        height: 500px;
+    }
+
+    #photo {
+        border: 1px solid black;
+        width: 500px;
+        height: 500px;
+    }
+
+    #canvas {
+        display: none;
+    }
+
+    .camera {
+    	position: relative;
+        width: 500px;
+        display: inline-block;
+        left: 20%;
+    }
+
+    .output {
+        width: 500px;
+        display: inline-block;
+    }
+
+    #startbutton {
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0px;
+        padding: 5px;
+        background-color: #6a67ce;
+        border: 1px solid rgba(255, 255, 255, 0.7);
+        font-size: 14px;
+        color: rgba(255, 255, 255, 1.0);
+        cursor: pointer;
+    }
+    .sbtn {
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0px;
+        padding: 5px;
+        background-color: #6a67ce;
+        border: 1px solid rgba(255, 255, 255, 0.7);
+        font-size: 14px;
+        color: rgba(255, 255, 255, 1.0);
+        cursor: pointer;
+    }
+
+    .contentarea {
+        font-size: 16px;
+        font-family: Arial;
+       columns: 100px 2;
+    }
+    .in-p{
+    	width: 50%;
+    }
+    @media only screen and (max-width: 768px) {
+    	.camera {
+    	position: relative;
+        width: 500px;
+        display: inline-block;
+        left: 0%;
+    }
+  .contentarea {
+        font-size: 16px;
+        font-family: Arial;
+       columns: 100px 1;
+    }
+}
+    </style>
+    <title>DashBoard</title>
+</head>
+<body>
+<!-- Inspired by: https://codepen.io/natewiley/pen/Ciwyn -->
+
+<div id="particle-container">
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+</div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/dashboard">DashBoard</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+      	        <li class="nav-item">
+           <a class="nav-link active" href="/download">Download Attendence
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+       
+        <li class="nav-item">
+            <a   href="{% url 'profiles' %}" class="nav-link active">Profile
+                <span class="visually-hidden">(current)</span>  
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="/logout">Logout
+             <span class="visually-hidden">(current)</span>
+           </a>
+         </li>
+    </div>
+  </div>
+</nav>
+    <br>
+    <br>
+    <br>
+    <div class="contentarea">
+        <div class="camera">
+            <video id="video">Video stream not available.</video>
+        </div>
+        <div><button id="startbutton" class="btn btn-primary">Take photo</button>
+        <canvas id="canvas"></canvas>
+        <div class="output">
+            <img id="photo" name="photo" alt="The screen capture will appear in this box.">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div>
+    	<form method="POST">
+        {% csrf_token %}
+           <input type="hidden" id="photodata" name="photodata" value=""></input>
+           <input type="text" name="studentid" placeholder="Enter Student Id" class="in-p form-control"></input>
+           <br>
+           <br>
+           <select name="action" id="action" class="in-p form-control">
+  <option value="take">Take attendence</option>
+  <option value="upload">Upload new face</option>
+</select>
+<br>
+    	<input type="submit" class="btn btn-primary"></input>
+    </form>
+    </div>
+    <script>
+    /* JS comes here */
+    (function() {
+
+        var width = 500; // We will scale the photo width to this
+        var height = 0; // This will be computed based on the input stream
+
+        var streaming = false;
+
+        var video = null;
+        var canvas = null;
+        var photo = null;
+        var startbutton = null;
+
+        function startup() {
+            video = document.getElementById('video');
+            canvas = document.getElementById('canvas');
+            photo = document.getElementById('photo');
+            startbutton = document.getElementById('startbutton');
+
+            navigator.mediaDevices.getUserMedia({
+                    video: true,
+                    audio: false
+                })
+                .then(function(stream) {
+                    video.srcObject = stream;
+                    video.play();
+                })
+                .catch(function(err) {
+                    console.log("An error occurred: " + err);
+                });
+
+            video.addEventListener('canplay', function(ev) {
+                if (!streaming) {
+                    height = video.videoHeight / (video.videoWidth / width);
+
+                    if (isNaN(height)) {
+                        height = width / (4 / 3);
+                    }
+
+                    video.setAttribute('width', width);
+                    video.setAttribute('height', height);
+                    canvas.setAttribute('width', width);
+                    canvas.setAttribute('height', height);
+                    streaming = true;
+                }
+            }, false);
+
+            startbutton.addEventListener('click', function(ev) {
+                takepicture();
+                ev.preventDefault();
+            }, false);
+
+            clearphoto();
+        }
+
+
+
+        function clearphoto() {
+            var context = canvas.getContext('2d');
+            context.fillStyle = "#AAA";
+            context.fillRect(0, 0, canvas.width, canvas.height);
+
+            var data = canvas.toDataURL('image/png');
+            photo.setAttribute('src', data);
+        }
+
+        function takepicture() {
+            var context = canvas.getContext('2d');
+            var input1=document.getElementById('photodata');
+            if (width && height) {
+                canvas.width = width;
+                canvas.height = height;
+                context.drawImage(video, 0, 0, width, height);
+
+                var data = canvas.toDataURL('image/png');
+                photo.setAttribute('src', data);
+                input1.setAttribute('value',data);
+            } else {
+                clearphoto();
+            }
+        }
+         
+
+        window.addEventListener('load', startup, false);
+    })();
+    </script>
+</body>
+
+</html>
