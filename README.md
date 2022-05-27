@@ -21,21 +21,21 @@ This project is a part of my participation in Microsoft Engage Mentorship Progra
 
 Note : Make sure you have Python version 3.8+
 
-Environment Setup 🚀
+### Environment Setup 🚀
 
 ```$ git clone https://github.com/Kartikeya3/Attendance-Detection-using-FaceRecognition.git```
 
 Open Visual Studio 
 
-$ pip install virtualenv
+```$ pip install virtualenv```
 
 Create a virtual environment
 
-$ virtualenv venv
+```$ virtualenv venv```
 
 Activate the environment everytime you open the project
 
-$ source venv/Scripts/activate (or) pipenv shell
+```$ source venv/Scripts/activate``` (or) ```pipenv shell```
 
 $ pip install django 
 
