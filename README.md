@@ -82,7 +82,7 @@ Now you can run the server to see your application up & running 🚀
 
 # Point to note :
 - To run in local First they have to go into Azure Database for PostgreSQL flexible servers and then Select recognition under settings click Networking tab in the       firewall add your Firewall rule name and IP Address of start and end. 
--Hostname/address  : recognition.postgres.database.azure.com 
+- Hostname/address  : recognition.postgres.database.azure.com 
   -port : 5432
  -Maintenance Database : postgres
  -username : postgres
