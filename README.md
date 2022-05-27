@@ -23,7 +23,7 @@ Note : Make sure you have Python version 3.8+
 
 Environment Setup 🚀
 
-$ git clone https://github.com/Kartikeya3/Attendance-Detection-using-FaceRecognition.git
+```$ git clone https://github.com/Kartikeya3/Attendance-Detection-using-FaceRecognition.git```
 
 Open Visual Studio 
 
