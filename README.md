@@ -1,6 +1,6 @@
-# Attendance-Detection-using-FaceRecognition
-
 # Submission for Microsoft Engage Program 2021
+
+This project is a part of my participation in Microsoft Engage Mentorship Program 2022. I've implemented Face Recognition Application. You can check out the project using https://acehacker.com/microsoft/engage2022/ .
 
 # Project Link : https://enagaefacerecognition.azurewebsites.net/
 
@@ -25,9 +25,7 @@ Environment Setup 🚀
 
 $ git clone https://github.com/Kartikeya3/Attendance-Detection-using-FaceRecognition.git
 
-$ cd Attendence\psychoweb
-
-If virtualenv is not installed (What is virtualenv?):
+$ cd Attendence/psychoweb
 
 $ pip install virtualenv
 
@@ -73,3 +71,14 @@ To exit the environment ❎
 
 $ deactivate
 
+# Features For The Project:
+1) Authentication using Facial recognition
+2) Attendance using Facial verification
+3) They can add Profiles and Biometric Photo
+4) They can edit the Details of user and Delete the UserDetails. 
+5) They can Download the attendance Sheet
+
+# Point to note :
+To run in local First they have to go into Azure Database for PostgreSQL flexible servers and then Select recognition under settings click Networking tab in the firewall add your Firewall rule name and IP Address of start and end. 
+
+# Screenshots :
