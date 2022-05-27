@@ -1,4 +1,4 @@
-# Submission for Microsoft Engage Program 2021
+# Submission for Microsoft Engage Program 2022
 
 This project is a part of my participation in Microsoft Engage Mentorship Program 2022. I've implemented Face Recognition Application. You can check out the project using https://acehacker.com/microsoft/engage2022/ .
 
